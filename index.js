@@ -21,3 +21,8 @@ function appendDriver(name) {
   let newArray = [...drivers, name];
   return newArray;
 }
+
+function prependDriver(name) {
+  let newArray = [name, ...drivers];
+  return newArray;
+}
